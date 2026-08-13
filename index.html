@@ -425,6 +425,7 @@ async function loadLiveData(){
   }
 }
 
+const JERSEY_CODE = {Home:'H', Away:'A', Third:'T', Fourth:'4TH', Anniversary:'ANN'};
 function jerseyCode(j){ return j ? (JERSEY_CODE[j] || 'OTH') : 'UNK'; }
 function jerseyLabel(j){ return j ? j : 'Unknown'; }
 
